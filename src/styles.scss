@@ -1,0 +1,108 @@
+.logo{
+    box-shadow: 0 7px 23px grey;
+    margin-bottom:90px;
+    display: flex;
+    justify-content: center;
+    background: rgb(2, 137, 248);
+}
+.logo img{
+    width: 100px;
+    border-radius: 50%;
+}
+.outside{
+    display: flex;
+    justify-content: center;
+}
+.container-outside{
+    border: 2px solid grey;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.container-outside .signup{
+    font-size: 30px;
+}
+.container-outside .createAccount{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.container-outside .lorem{
+    font-size: 30px;
+}
+.container-outside .logIn{
+    width: 76%;
+    display: flex;
+    justify-content: space-around;
+}
+.container-outside .logIn button{
+    width: 35%;
+    height: 40px;
+    outline:none;
+    border:none;
+    box-shadow: 0 3px 7px grey;
+}
+.container-outside .or{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 40px;
+}
+.container-outside .or hr{
+    background: rgb(219, 219, 219);;
+    width: 330px;
+    height: 2px;
+}
+.container-outside .or h1{
+    font-size: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.container-outside .forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.container-outside .forms input{
+    margin-bottom: 15px;
+    width: 700px;
+    height: 60px;
+    border:3px solid rgb(219, 219, 219)
+}
+.container-outside .terms p{
+    color:rgb(160, 153, 153) ;
+    font-weight: 700;
+    font-size: 20px;
+}
+.container-outside .terms p span{
+    color: rgb(10, 233, 233);
+}
+.container-outside button{
+    background:rgb(78, 175, 235) ;
+    width: 65%;
+    height: 40px;
+    text-decoration: none;
+    margin: 20px;
+    border:none;
+    border-radius:5px;
+    box-shadow: 0 3px 10px grey;
+}
+.container-outside button h1{
+    font-size: 25px;
+    text-align:center;
+    color: rgb(241, 234, 234);
+    position: relative;
+    top:4px;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+
+
+
+@media (min-width:500px){
+    
+}
